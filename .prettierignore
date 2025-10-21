@@ -1,0 +1,23 @@
+# Ignore node_modules (always recommended)
+node_modules/
+
+# Ignore build or output directories
+dist/
+build/
+
+# Ignore environment-specific files
+.env
+.env.sample
+coverage/
+
+# Ignore IDE Files
+.vscode/
+
+# Ignore all JSON files
+*.json
+
+# Ignore other config files
+*.yml
+.eslintrc.js
+
+# Ignore specific files

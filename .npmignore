@@ -1,0 +1,60 @@
+# Source files
+src/
+tests/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Development configs
+tsconfig.json
+.prettierrc
+.eslintrc*
+.editorconfig
+.github/
+.vscode/
+.idea/
+*.config.js
+
+# Git
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Build process
+coverage/
+.nyc_output/
+.DS_Store
+
+# Build output
+dist/
+
+# Documentation and examples
+docs/
+examples/
+wiki/
+*.md
+!README.md
+!LICENSE.md
+
+# CI/CD
+.travis.yml
+.circleci/
+.gitlab-ci.yml
+azure-pipelines.yml
+*.yml
+
+# Temp files
+*.tmp
+*.temp
+.cache/
