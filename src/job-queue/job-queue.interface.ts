@@ -28,7 +28,7 @@ export interface JobQueueInterface {
    * JSON structure containing the final prompt after LLM processing.
    * Null until ms-prompt-generation processes the job.
    */
-  generated_prompt: Record<string, unknown> | null;
+  generated_prompt: Record<string, string> | null;
 
   /**
    * Number of images to be generated for this prompt.
