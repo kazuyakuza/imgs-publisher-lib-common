@@ -1,6 +1,6 @@
 import { JobStatus } from "./job-status.enum";
 
-export interface JobQueue {
+export interface JobQueueInterface {
   id: string;
 
   /**

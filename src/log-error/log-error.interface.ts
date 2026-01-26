@@ -1,6 +1,6 @@
 import { ErrorSeverity } from "./error-severity.enum";
 
-export interface LogError {
+export interface LogErrorInterface {
   id: string;
 
   service: string;
