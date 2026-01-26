@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Publish to NPM
-        run: npm publish --access restricted
+        run: npm publish --access ${{ vars.PRIVATE_PUBLISH == 'true' && 'restricted' || 'public' }}
       - name: Get package version
         id: get_version
         run: echo "PACKAGE_VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
