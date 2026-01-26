@@ -1,5 +1,5 @@
 {
-  "name": "@pacer-dev/lib-name",
+  "name": "@imgs-publisher/lib-commons",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "Pacer-Tecnologia",
+  "author": "kazuyakuza",
   "license": "MIT",
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
