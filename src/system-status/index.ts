@@ -1,1 +1,1 @@
-export * from './system-status.entity';
+export * from './system-status.interface';
