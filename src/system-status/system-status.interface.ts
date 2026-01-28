@@ -1,4 +1,4 @@
-export interface SystemStatus {
+export interface SystemStatusInterface {
   key: string;
   value: Record<string, any>;
   created_at: Date;
